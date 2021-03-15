@@ -1,0 +1,42 @@
+.preview{
+    margin: 1rem;
+    word-break: break-all;
+    border:1px solid red;
+    position: relative;
+    border-radius: 0.4rem;
+    transition: all 0.5s;
+    background-color: rgb(231, 221, 221);
+}
+.previewImg{
+    height: 20vh;
+    width: 100%;
+    background-color: black;
+    opacity: 0.7;
+    border-bottom: 1px solid white;
+    border-top-right-radius: 0.4rem;
+    border-top-left-radius: 0.4rem;
+    transition: all 0.5s;
+}
+.preview:hover .previewImg{
+opacity: 0.1;
+}
+.preview:hover{
+    box-shadow: 0.4rem 0.4rem 0.3rem rgba(59, 59, 57, 0.637);
+}
+.title{
+    margin: 0 1rem;
+    font-size: 1.2rem;
+}
+.price{
+    font-size: 0.8rem;
+    margin: 0.5rem 1rem;
+}
+.available{
+    padding: 0.4rem;
+    background-color: black;
+    color: white;
+    font-size: 0.8rem;
+    position: absolute;
+    top: 0;
+    border-top-left-radius: 0.4rem;
+}

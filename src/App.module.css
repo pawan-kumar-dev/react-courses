@@ -1,0 +1,8 @@
+body{
+    margin: 0;
+    padding: 0;
+    width: 100%;
+    background-image:linear-gradient(to right,rgba(255, 0, 0, 0.534),rgba(255, 166, 0, 0.541));
+}.App{
+    width: 100%;
+}

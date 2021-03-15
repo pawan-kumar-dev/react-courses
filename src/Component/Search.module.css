@@ -1,0 +1,41 @@
+.container{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    box-sizing: border-box;
+    width: 100%;
+    padding: 1rem;
+    box-sizing: border-box;
+}
+.inputs{
+        margin: 1rem 0;
+        padding: 0.2rem;
+        width: 100%;
+        border: 0;
+        outline: none;
+        border-radius: 0.3rem;
+        font-size: 1rem;
+        background-color: rgb(255, 255, 255);
+        box-shadow: 0.2rem 0.2rem 0.5rem black;
+}
+.preview{
+    width: 100%;
+    padding: 1rem;
+    justify-content:center;
+    display: flex;
+    flex-wrap: wrap;
+    word-break: break-all;
+}
+.card{
+    width: 25%;
+    height: 250px;
+}
+@media(max-width:650px){
+    .preview{
+        flex-direction: column;
+    }
+    .card{
+        width: 80%;
+        margin: 0 auto;
+    }
+}

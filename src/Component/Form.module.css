@@ -1,0 +1,103 @@
+.container{
+    margin: 2rem 0;
+    padding: 2rem 2rem;
+    box-sizing: border-box;
+    display: flex;
+    box-sizing: border-box;
+    justify-content: space-around;
+    text-align: center;
+}
+.form{
+    padding: 1rem;
+    border-radius: 1rem;
+    height: 50vh;
+    box-shadow: 3px 3px 6px rgb(34, 33, 33);
+    background-image: linear-gradient(60deg,rgba(255, 0, 0, 0.486),rgba(0, 0, 255, 0.521));
+}
+.formData{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.available{
+    display: flex;
+    align-items: center;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    margin-bottom: 1rem;
+    width: 100%;
+}
+.available h4{
+    margin: 0;
+    font-weight: 900;
+    font-size: 0.9rem;
+}
+.inputs{
+    margin: 1rem 0;
+    padding: 0.2rem;
+    width: 100%;
+    border: 0;
+    outline: none;
+    border-radius: 0.3rem;
+    font-size: 1rem;
+    background-color: rgb(255, 255, 255);
+    box-shadow: 0.2rem 0.2rem 0.5rem black;
+}
+select{
+    margin: 1rem 0;
+    padding: 0.2rem;
+    width: 50%;
+    border: 0;
+    outline: none;
+    border-radius: 0.3rem;
+    font-size: 1rem;
+    background-color: rgb(255, 255, 255);
+    box-shadow: 0.2rem 0.2rem 0.5rem black;
+}
+.addproduct{
+    padding: 0.5rem 2rem;
+    background-color: blanchedalmond;
+    border:0;
+    outline: none;
+    margin: 0 0 1rem 0;
+    font-size: 1rem;
+    transition: all 1s;
+}
+.addproduct:hover{
+    transform: scale(1.1,1.1);
+    border-radius: 1rem;
+    background-color: azure;
+    color: blue;
+}
+.preview{
+    width: 40%;
+    word-break: break-all;
+    background-color: burlywood;
+    border: 2px solid rgb(27, 5, 5);
+}
+.previewImg{
+    height: 30vh;
+    width: 100%;
+    border-bottom: 1px solid white;
+}
+.title,.price{
+    margin: 0;
+    font-size: 1.2rem;
+}
+.price{
+    font-size: 0.8rem;
+    margin: 0.5rem;
+}
+.text{
+    margin: 0.5rem;
+}
+@media(max-width:650px){
+    .container{
+        flex-direction: column;
+    }
+    .preview{
+        width: 80%;
+        height: 40vh;
+        margin: 0.5rem auto 0 auto;
+    }
+}
